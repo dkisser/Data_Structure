@@ -1,0 +1,154 @@
+#6ha_header {
+	background-color: #FFFFFF;
+	height: 56px;
+	width: 100%;
+	font-family: "ËÎÌå";
+	font-size: 14px;
+}
+#6ha_footer {
+	height: 417px;
+	width: 100%;
+}
+#footer_container {
+	height: 270px;
+	width: 100%;
+}
+#footer_annotation {
+	height: 147px;
+	width: 100%;
+}
+#header_logo,#header_tab_container {
+	float:left;
+}
+#header_logo {
+	float: left;
+	height: 46px;
+	width: 80px;
+	margin-top: 5px;
+}
+#header_search,#header_download,#header_user_info{
+	float:right;
+}
+#header_tab_container {
+	height: 56px;
+	width: 452px;
+}
+#header_user_info {
+	height: 51px;
+	width: 100px;
+	line-height: 51px;
+	color: #8c8c8c;
+	margin-left: 10px;
+}
+#header_user_info a:hover {
+	color: #63DCAA;
+}
+#header_user_info b{
+		font-family:"ºÚÌå";
+}
+#header_download {
+	height: 51px;
+	width: 60px;
+}
+#header_search {
+	height: 54px;
+	width: 250px;
+}
+#header_user_info b {
+	margin-top: 0px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+}
+.6ha_adaption_left {
+	display: block;
+	float:left;
+	width: 6%;
+	position: relative;
+}
+.6ha_adaption_right {
+	display: block;
+	float:right;
+	width: 6%;
+}
+.header-icon{
+    display: block;
+    float: left;
+}
+.icon-download{
+    background-image: url(../images/icon.png);
+    background-position: -32px -36px;
+    width: 18px;
+    height: 20px;
+}
+.icon-download:hover {
+    background-image: url(../images/icon.png);
+    background-position: -32px -86px;
+    width: 18px;
+    height: 20px;
+
+}
+a {
+	color: #8c8c8c;
+	text-decoration: none;
+	text-align: center;
+}
+span {
+	margin-left: 6px;
+}
+.download-btn:hover {
+	color: #63DCAA;
+}
+
+.download-btn {
+	height: 20px;
+}
+.download-btn {
+	height: 20px;
+}
+.download-btn {
+	height: 20px;
+	margin-top: 16px;
+}
+#header_tab_container ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+#header_tab_container li {
+	display: block;
+	float: left;
+	line-height: 56px;
+	height: 56px;
+	width: 70px;
+}
+#header_tab_container ul li:hover{
+	background-color:#63DCAA;
+}
+#header_tab_container ul li a:hover{
+	color: #FFFFFF;
+	background-position: center;
+}
+.6ha_search {
+	float: left;
+	height: 100%;
+	width: 200px;
+}
+.6ha_search_left {
+	float: left;
+	height: 56px;
+	width: 200px;
+	clear: left;
+}
+.6ha_search_right {
+	float: left;
+	height: 56px;
+	width: 50px;
+}
+#6ha_wrapper {
+	width: 100%;
+	height: 7154px;
+}
+#footer_annotation {
+	background-color: #3F3F3F;
+}
