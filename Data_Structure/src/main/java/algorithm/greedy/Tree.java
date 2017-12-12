@@ -5,12 +5,12 @@ package algorithm.greedy;
  * @version 1.0 
  * @parameter
  */
-public class Node {
+public class Tree {
 	private Vertex[] key;
 	
 	private int[] parent;
 
-	public Node(Vertex[] key, int[] parent) {
+	public Tree(Vertex[] key, int[] parent) {
 		this.key = key;
 		this.parent = parent;
 	}

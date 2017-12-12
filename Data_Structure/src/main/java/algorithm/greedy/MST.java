@@ -24,7 +24,7 @@ import algorithm.incremental.order.DESC;
  */
 public class MST {
 	
-	public static Node Prim (double[][] w,int r) throws Exception{
+	public static Tree Prim (double[][] w,int r) throws Exception{
 		int n =w.length;
 		Vertex[] key = new Vertex[n];
 		int[] parent = new int[n];//用来存放父节点的下标,先初始化为-1
@@ -54,7 +54,7 @@ public class MST {
 				que.fixQue();
 			}
 		}
-		return new Node(key, parent);
+		return new Tree(key, parent);
 	}
 	
 	public static void main(String[] args) throws Exception {
@@ -69,9 +69,9 @@ public class MST {
 						{0,0,2,0,0,0,6,7,0}};
 		double weight = 0.0;
 		int n=a.length;
-		Node node = Prim(a, 0);
-		Vertex[] key = node.getKey();
-		int[] parent = node.getParent();
+		Tree tree = Prim(a, 0);
+		Vertex[] key = tree.getKey();
+		int[] parent = tree.getParent();
 		for (int i=0;i<n;i++){
 			weight+=key[i].getWeight();
 			if (parent[i]>=0){
