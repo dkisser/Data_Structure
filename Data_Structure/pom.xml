@@ -23,6 +23,7 @@
         <log4j.version>1.2.17</log4j.version>
         <!-- mysql的jdbc连接版本 -->
         <mysql.version>5.1.42</mysql.version>
+        <mongoDB.version>3.4.3</mongoDB.version>
         <cxf.version>3.1.11</cxf.version>
         <!-- 二维码处理  -->
         <zxing.version>3.2.1</zxing.version>
@@ -151,6 +152,22 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>${mysql.version}</version>
         </dependency>
+        <!-- MongoDB -->
+        <dependency>
+	        <groupId>org.mongodb</groupId>
+	        <artifactId>mongodb-driver</artifactId>
+	        <version>${mongoDB.version}</version>
+    	</dependency>
+        <dependency>
+	        <groupId>org.mongodb</groupId>
+	        <artifactId>bson</artifactId>
+	        <version>${mongoDB.version}</version>
+    	</dependency>
+        <dependency>
+	        <groupId>org.mongodb</groupId>
+	        <artifactId>mongodb-driver-core</artifactId>
+	        <version>${mongoDB.version}</version>
+    	</dependency>
         <!-- derby 
         <dependency>
 			<groupId>org.apache.derby</groupId>
