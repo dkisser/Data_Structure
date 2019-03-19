@@ -28,21 +28,7 @@
         <!-- 二维码处理  -->
         <zxing.version>3.2.1</zxing.version>
     </properties>
-    <!-- 使用本地maven私服代理中央仓库 -->
-	<repositories>
-		<repository>
-			<id>maven-central</id>
-			<name>maven-central</name>
-			<url>http://125.220.70.84:8081/repository/maven-central/</url>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-		</repository>
-	</repositories>
-	
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
