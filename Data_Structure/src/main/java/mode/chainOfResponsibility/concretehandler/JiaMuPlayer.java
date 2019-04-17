@@ -2,7 +2,7 @@ package mode.chainOfResponsibility.concretehandler;
 
 import mode.chainOfResponsibility.handler.Player;
 
-public class JiaMuPlayer  extends Player {
+public class JiaMuPlayer extends Player {
 
     public JiaMuPlayer(Player successor) {
         setSuccessor(successor);
