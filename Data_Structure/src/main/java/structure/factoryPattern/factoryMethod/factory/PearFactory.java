@@ -1,8 +1,8 @@
 package structure.factoryPattern.factoryMethod.factory;
 
-import com.wc.factoryPattern.factoryMethod.abstractFactory.abstractFactory;
-import com.wc.factoryPattern.factoryMethod.abstractProduct.abstractProduct;
-import com.wc.factoryPattern.factoryMethod.product.Pear;
+import structure.factoryPattern.factoryMethod.abstractFactory.abstractFactory;
+import structure.factoryPattern.factoryMethod.abstractProduct.abstractProduct;
+import structure.factoryPattern.factoryMethod.product.Pear;
 
 /**
  * Created by WenChen on 2018/3/30.

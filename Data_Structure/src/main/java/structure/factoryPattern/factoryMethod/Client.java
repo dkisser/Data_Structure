@@ -1,10 +1,10 @@
 package structure.factoryPattern.factoryMethod;
 
-import com.wc.factoryPattern.factoryMethod.abstractFactory.abstractFactory;
-import com.wc.factoryPattern.factoryMethod.abstractProduct.abstractProduct;
-import com.wc.factoryPattern.factoryMethod.factory.AppleFactory;
-import com.wc.factoryPattern.factoryMethod.factory.PearFactory;
-import com.wc.factoryPattern.factoryMethod.factory.WatermalonFactory;
+import structure.factoryPattern.factoryMethod.abstractFactory.abstractFactory;
+import structure.factoryPattern.factoryMethod.abstractProduct.abstractProduct;
+import structure.factoryPattern.factoryMethod.factory.AppleFactory;
+import structure.factoryPattern.factoryMethod.factory.PearFactory;
+import structure.factoryPattern.factoryMethod.factory.WatermalonFactory;
 
 /**
  * Created by WenChen on 2018/3/30.

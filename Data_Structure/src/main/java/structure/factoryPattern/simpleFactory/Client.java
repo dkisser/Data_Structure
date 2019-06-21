@@ -1,7 +1,7 @@
 package structure.factoryPattern.simpleFactory;
 
-import com.wc.factoryPattern.simpleFactory.abstractProduct.Ancestor;
-import com.wc.factoryPattern.simpleFactory.factory.ManFactory;
+import structure.factoryPattern.simpleFactory.abstractProduct.Ancestor;
+import structure.factoryPattern.simpleFactory.factory.ManFactory;
 
 /**
  * Created by WenChen on 2018/3/30.
