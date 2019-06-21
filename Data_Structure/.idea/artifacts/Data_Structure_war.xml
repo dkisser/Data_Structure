@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Data_Structure:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="Data_Structure-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Data_Structure:war exploded" />
+    </root>
+  </artifact>
+</component>
